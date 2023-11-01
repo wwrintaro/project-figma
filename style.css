@@ -1,0 +1,401 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+.pop-up {
+    background: #2373d0;
+    height: 700px;
+}
+
+.hide {
+    visibility: hidden;
+    height: 0;
+}
+
+.top {
+    padding: 15px 0px 78px 0px;
+    align-items: center;
+    gap: 450px;
+}
+
+ul li a {
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    /* 100% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+/* 1-SECTION */
+
+#birinchi {
+    background: url('img/Layer\ 43@1\,5x.png') , no-repeat ;
+    width: 100%;
+}
+
+.header-part {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.burger,
+.icon3 {
+    padding-top: 24px;
+}
+
+.icon2 {
+    padding-top: 14px;
+}
+
+
+.title-part {
+    width: 450px;
+
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    /* 100% */
+    letter-spacing: -1.5px;
+
+
+    padding-top: 355px;
+    padding-bottom: 80px;
+}
+
+
+/* 2-SECTION */
+
+.ikinchi-content {
+    justify-content: space-between;
+    margin: 104px 0px 80px 0px;
+}
+
+.left-side {
+    width: 324px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    /* 100% */
+    letter-spacing: -1.5px;
+}
+
+.left-side span {
+    color: var(--Blue, #0075FF);
+
+}
+
+
+.title-iki {
+    color: var(--Blue, #0075FF);
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    /* 125% */
+}
+
+.text-iki {
+    width: 498px;
+    color: var(--Text, #3E3E3E);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    /* 168.75% */
+}
+
+
+.text-iki span {
+    font-weight: 700;
+}
+
+/* 3-SECTION */
+
+
+.korona-side {
+    margin-bottom: 60px;
+}
+
+.korona-title {
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    /* 100% */
+    letter-spacing: -1.5px;
+}
+
+.korona img {
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    position: absolute;
+    top: 1297px;
+    left: 660px;
+}
+
+.img-side1 {
+    padding-top: 10px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.img1-text {
+    margin: 20px 0px 20px 0px;
+    margin-left: 50px;
+    color: var(--Text, #3E3E3E);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.img1-text span {
+    color: var(--Blue, #0075FF);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+    /* 168.75% */
+}
+
+.btn1 {
+    margin-bottom: 90px;
+    margin-left: 500px;
+}
+
+.btn1 button {
+    width: 140px;
+    height: 56px;
+    border-radius: 7px;
+    border-color: #0075FF;
+    background-color: #FFF;
+
+    color: var(--Blue, #0075FF);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 14px;
+    /* 87.5% */
+}
+
+
+/* 4-SECTION */
+
+.korona1-side {
+    margin-bottom: 80px;
+}
+
+.korona2 img {
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    position: absolute;
+    top: 2550px;
+    left: 660px;
+}
+
+.box-content {
+    margin-bottom: 90px;
+    justify-content: center;
+    gap: 25px;
+
+}
+
+.box {
+    text-align: center;
+}
+
+.bir {
+    color: var(--Blue, #0075FF);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    /* 125% */
+
+    margin: 30px 0px 0px 0px;
+}
+
+.iki {
+    color: #9FADC2;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    /* 192.857% */
+}
+
+.uch {
+    width: 324px;
+    margin: 0 auto;
+    color: var(--Text, #3E3E3E);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    /* 168.75% */
+
+}
+
+/* 5-SECTION */
+
+
+.beshinchi-content{
+    justify-content: center;
+    gap: 200px;
+}
+
+.korona3-side {
+
+    margin-bottom: 80px;
+}
+
+.korona3 img {
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    position: absolute;
+    top: 3090px;
+    left: 660px;
+}
+
+.one span,
+.two span {
+    color: #9FADC2;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    /* 192.857% */
+}
+
+.one {
+    color: var(--Text, #3E3E3E);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    /* 168.75% */
+
+}
+
+.two {
+    color: var(--Text, #3E3E3E);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    /* 168.75% */
+
+    width: 150px;
+}
+
+
+.one-2 {
+    gap: 100px;
+}
+
+.one a {
+    color: var(--Text, #3E3E3E);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    /* 168.75% */
+    text-decoration: none;
+}
+
+
+
+.inp1 input {
+    border-radius: 8px;
+    background: #F6F8FF;
+    border: none;
+    width: 411px;
+    height: 48px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.inp2 input {
+    border: none;
+    border-radius: 8px;
+    background: #F6F8FF;
+    width: 411px;
+    height: 144px;
+    padding-left: 10px;
+    padding-bottom: 100px;
+    margin: 10px 0px 50px 0px ;
+
+}
+
+.btn-last button {
+    width: 411px;
+    height: 56px;
+    margin-bottom: 120px;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 14px;
+    /* 87.5% */
+
+    border-radius: 8px;
+    border: none;
+    background-color: #005ECC;
+    color: drop-shadow(0px 13px 27px rgba(0, 83, 181, 0.46));
+}
+
+
+footer {
+
+    background: url('img/image\ 1.png');
+}
+
+.last-logo img{
+    margin: 240px 0px 32px 495px;
+    
+    
+}
